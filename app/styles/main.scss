@@ -39,5 +39,12 @@ nav {
       color: white;
       font-weight: 700;
     }
+
+    @media #{$small-and-down} {
+      h3 {
+        text-align: center;
+        font-size: 2.6rem;
+      }
+    }
   }
 }
