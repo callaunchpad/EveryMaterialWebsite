@@ -12,10 +12,7 @@ $(function() {
     }).children('.summary').css('transform', function() {
       return 'perspective(600px) translate3d(0, 0, 0) rotateX('+ degX +') rotateY('+ degY +')';
     });
-  })
-    .on('mouseout', '.card-background', function() {
-    $(this).removeAttr('style')
-      .children('.summary')
-      .removeAttr('style');
+  }).on('mouseout', '.card-background', function() {
+    $(this).removeAttr('style').children('.summary').removeAttr('style');
   });
 });

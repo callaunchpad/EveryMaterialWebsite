@@ -1,4 +1,4 @@
-#card-wrapper {
+.card-wrapper {
 	padding-bottom: 8em;
 
 	figure {
@@ -8,6 +8,11 @@
 	img {
 		max-width: 100%;
 		height: auto;
+	}
+
+	div.card-image {
+		width: 100%;
+		height: 200px;
 	}
 
 	.card-background {
