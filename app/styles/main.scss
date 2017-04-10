@@ -22,3 +22,21 @@ nav {
     font-weight: 400;
   }
 }
+
+.parallax-container {
+  height: 240px;
+
+  img {
+    width: 100%;
+  }
+
+  div.valign {
+    margin: 0 auto;
+    z-index: 1;
+
+    h3 {
+      color: white;
+      font-weight: 700;
+    }
+  }
+}
