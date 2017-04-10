@@ -1,0 +1,8 @@
+{
+  "name": "everymaterialwebsite",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "materialize": "^0.98.1"
+  }
+}

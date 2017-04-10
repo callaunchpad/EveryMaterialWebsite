@@ -1,0 +1,11 @@
+// bower:scss
+// endbower
+
+@import 'bower_components/materialize/sass/materialize';
+@import 'intro';
+
+body {
+  background: #fafafa;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #333;
+}
