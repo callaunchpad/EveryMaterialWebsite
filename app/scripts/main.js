@@ -22,7 +22,7 @@ $(function() {
 	}, 800);
 
 	var options = [];
-	for (var i = 1; i <= 6; i++) {
+	for (var i = 1; i <= 9; i++) {
 		var elementClass = '.col' + i;
 
 		$(elementClass).attr('delay', 200 * ((i - 1) % 3));
